@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2669656E2B72A84D0063C450 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2669656D2B72A84D0063C450 /* RealityKitContent */; };
+		266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669656F2B72A84D0063C450 /* VisionPetApp.swift */; };
+		266965722B72A84D0063C450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965712B72A84D0063C450 /* ContentView.swift */; };
+		266965742B72A84D0063C450 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965732B72A84D0063C450 /* ImmersiveView.swift */; };
+		266965762B72A84E0063C450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266965752B72A84E0063C450 /* Assets.xcassets */; };
+		266965792B72A84E0063C450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266965782B72A84E0063C450 /* Preview Assets.xcassets */; };
+		266965842B72A84E0063C450 /* VisionPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965832B72A84E0063C450 /* VisionPetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266965802B72A84E0063C450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266965602B72A84D0063C450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266965672B72A84D0063C450;
+			remoteInfo = VisionPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266965682B72A84D0063C450 /* VisionPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2669656C2B72A84D0063C450 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
+		2669656F2B72A84D0063C450 /* VisionPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetApp.swift; sourceTree = "<group>"; };
+		266965712B72A84D0063C450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		266965732B72A84D0063C450 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		266965752B72A84E0063C450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266965782B72A84E0063C450 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2669657A2B72A84E0063C450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2669657F2B72A84E0063C450 /* VisionPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		266965832B72A84E0063C450 /* VisionPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266965652B72A84D0063C450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2669656E2B72A84D0063C450 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2669657C2B72A84E0063C450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2669655F2B72A84D0063C450 = {
+			isa = PBXGroup;
+			children = (
+				2669656A2B72A84D0063C450 /* VisionPet */,
+				2669656B2B72A84D0063C450 /* Packages */,
+				266965822B72A84E0063C450 /* VisionPetTests */,
+				266965692B72A84D0063C450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266965692B72A84D0063C450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266965682B72A84D0063C450 /* VisionPet.app */,
+				2669657F2B72A84E0063C450 /* VisionPetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2669656A2B72A84D0063C450 /* VisionPet */ = {
+			isa = PBXGroup;
+			children = (
+				2669656F2B72A84D0063C450 /* VisionPetApp.swift */,
+				266965712B72A84D0063C450 /* ContentView.swift */,
+				266965732B72A84D0063C450 /* ImmersiveView.swift */,
+				266965752B72A84E0063C450 /* Assets.xcassets */,
+				2669657A2B72A84E0063C450 /* Info.plist */,
+				266965772B72A84E0063C450 /* Preview Content */,
+			);
+			path = VisionPet;
+			sourceTree = "<group>";
+		};
+		2669656B2B72A84D0063C450 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2669656C2B72A84D0063C450 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		266965772B72A84E0063C450 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				266965782B72A84E0063C450 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		266965822B72A84E0063C450 /* VisionPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				266965832B72A84E0063C450 /* VisionPetTests.swift */,
+			);
+			path = VisionPetTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266965672B72A84D0063C450 /* VisionPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266965872B72A84E0063C450 /* Build configuration list for PBXNativeTarget "VisionPet" */;
+			buildPhases = (
+				266965642B72A84D0063C450 /* Sources */,
+				266965652B72A84D0063C450 /* Frameworks */,
+				266965662B72A84D0063C450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionPet;
+			packageProductDependencies = (
+				2669656D2B72A84D0063C450 /* RealityKitContent */,
+			);
+			productName = VisionPet;
+			productReference = 266965682B72A84D0063C450 /* VisionPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2669657E2B72A84E0063C450 /* VisionPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2669658A2B72A84E0063C450 /* Build configuration list for PBXNativeTarget "VisionPetTests" */;
+			buildPhases = (
+				2669657B2B72A84E0063C450 /* Sources */,
+				2669657C2B72A84E0063C450 /* Frameworks */,
+				2669657D2B72A84E0063C450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266965812B72A84E0063C450 /* PBXTargetDependency */,
+			);
+			name = VisionPetTests;
+			productName = VisionPetTests;
+			productReference = 2669657F2B72A84E0063C450 /* VisionPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266965602B72A84D0063C450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					266965672B72A84D0063C450 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2669657E2B72A84E0063C450 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 266965672B72A84D0063C450;
+					};
+				};
+			};
+			buildConfigurationList = 266965632B72A84D0063C450 /* Build configuration list for PBXProject "VisionPet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2669655F2B72A84D0063C450;
+			productRefGroup = 266965692B72A84D0063C450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266965672B72A84D0063C450 /* VisionPet */,
+				2669657E2B72A84E0063C450 /* VisionPetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266965662B72A84D0063C450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266965792B72A84E0063C450 /* Preview Assets.xcassets in Resources */,
+				266965762B72A84E0063C450 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2669657D2B72A84E0063C450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266965642B72A84D0063C450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266965722B72A84D0063C450 /* ContentView.swift in Sources */,
+				266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */,
+				266965742B72A84D0063C450 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2669657B2B72A84E0063C450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266965842B72A84E0063C450 /* VisionPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266965812B72A84E0063C450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266965672B72A84D0063C450 /* VisionPet */;
+			targetProxy = 266965802B72A84E0063C450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		266965852B72A84E0063C450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		266965862B72A84E0063C450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		266965882B72A84E0063C450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionPet/Preview Content\"";
+				DEVELOPMENT_TEAM = WD2L89Z59A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fadmania.VisionPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		266965892B72A84E0063C450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionPet/Preview Content\"";
+				DEVELOPMENT_TEAM = WD2L89Z59A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fadmania.VisionPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		2669658B2B72A84E0063C450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD2L89Z59A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fadmania.VisionPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionPet";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		2669658C2B72A84E0063C450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WD2L89Z59A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fadmania.VisionPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionPet";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266965632B72A84D0063C450 /* Build configuration list for PBXProject "VisionPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266965852B72A84E0063C450 /* Debug */,
+				266965862B72A84E0063C450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266965872B72A84E0063C450 /* Build configuration list for PBXNativeTarget "VisionPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266965882B72A84E0063C450 /* Debug */,
+				266965892B72A84E0063C450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2669658A2B72A84E0063C450 /* Build configuration list for PBXNativeTarget "VisionPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2669658B2B72A84E0063C450 /* Debug */,
+				2669658C2B72A84E0063C450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2669656D2B72A84D0063C450 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 266965602B72A84D0063C450 /* Project object */;
+}
