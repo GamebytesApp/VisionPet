@@ -14,6 +14,7 @@
 		266965762B72A84E0063C450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266965752B72A84E0063C450 /* Assets.xcassets */; };
 		266965792B72A84E0063C450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266965782B72A84E0063C450 /* Preview Assets.xcassets */; };
 		266965842B72A84E0063C450 /* VisionPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965832B72A84E0063C450 /* VisionPetTests.swift */; };
+		266965902B72BBB90063C450 /* VisionPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669658F2B72BBB90063C450 /* VisionPetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		2669657A2B72A84E0063C450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2669657F2B72A84E0063C450 /* VisionPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266965832B72A84E0063C450 /* VisionPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetTests.swift; sourceTree = "<group>"; };
+		2669658F2B72BBB90063C450 /* VisionPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 		2669656A2B72A84D0063C450 /* VisionPet */ = {
 			isa = PBXGroup;
 			children = (
+				2669658E2B72B0BD0063C450 /* Gameplay */,
+				2669658D2B72B09E0063C450 /* Views */,
 				2669656F2B72A84D0063C450 /* VisionPetApp.swift */,
 				266965712B72A84D0063C450 /* ContentView.swift */,
 				266965732B72A84D0063C450 /* ImmersiveView.swift */,
@@ -112,6 +116,21 @@
 				266965832B72A84E0063C450 /* VisionPetTests.swift */,
 			);
 			path = VisionPetTests;
+			sourceTree = "<group>";
+		};
+		2669658D2B72B09E0063C450 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2669658F2B72BBB90063C450 /* VisionPetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2669658E2B72B0BD0063C450 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gameplay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +238,7 @@
 			files = (
 				266965722B72A84D0063C450 /* ContentView.swift in Sources */,
 				266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */,
+				266965902B72BBB90063C450 /* VisionPetView.swift in Sources */,
 				266965742B72A84D0063C450 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,13 +9,16 @@ import SwiftUI
 
 @main
 struct VisionPetApp: App {
+    @State private var immersionState: ImmersionStyle = .mixed
+    
     var body: some Scene {
-        WindowGroup {
+        WindowGroup ("VisionPet", id: "visionPetApp") {
             ContentView()
-        }
+        }.windowStyle(.volumetric)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
         }
+        .immersionStyle(selection: $immersionState, in: .mixed)
     }
 }

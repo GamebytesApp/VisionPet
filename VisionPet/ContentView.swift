@@ -19,10 +19,14 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            Text("Welcome to VisionPet")
+                .offset(z: 100)
+                .padding(.bottom, 50)
+            
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
+            
 
-            Text("Hello, world!")
 
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
