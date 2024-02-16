@@ -10,14 +10,17 @@ import SwiftUI
 @main
 struct VisionPetApp: App {
     @State private var immersionState: ImmersionStyle = .mixed
+    @State private var viewModel = ViewModel() // persist instance of ViewModel throughout app
     
-    var body: some Scene {
-        WindowGroup ("VisionPet", id: "visionPetApp") {
+    var body: some Scene { // system by default launches only first scene in body
+        WindowGroup {
             ContentView()
-        }.windowStyle(.volumetric)
+                .environment(viewModel)
+        }.windowStyle(.plain)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
+                .environment(viewModel)
         }
         .immersionStyle(selection: $immersionState, in: .mixed)
     }

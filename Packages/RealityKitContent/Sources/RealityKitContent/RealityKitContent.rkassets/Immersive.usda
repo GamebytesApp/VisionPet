@@ -7,10 +7,10 @@
 
 def Xform "Root"
 {
-    reorder nameChildren = ["Room", "GridMaterial"]
+    reorder nameChildren = ["shiba", "GridMaterial"]
     def "GridMaterial" (
         active = true
-        prepend references = @Materials/GridMaterial.usda@
+        references = @Materials/GridMaterial.usda@
     )
     {
         float3 xformOp:scale = (1, 1, 1)
@@ -97,28 +97,14 @@ def Xform "Root"
         }
     }
 
-    def "Room" (
+    def "shiba" (
         active = true
-        prepend references = @Room.usdz@
+        references = @Shiba_Inu_Texture_Updated.usdz@
     )
     {
-        float3 xformOp:scale = (0.01, 0.01, 0.01)
-        float3 xformOp:translate = (0, 0, -0.2)
+        float3 xformOp:scale = (0.003, 0.003, 0.003)
+        float3 xformOp:translate = (0, 0, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-    }
-
-    def Xform "ChannelAudio"
-    {
-        reorder nameChildren = ["just_relax_11157_mp3", "ChannelAudio"]
-        def RealityKitComponent "ChannelAudio"
-        {
-            uniform token info:id = "RealityKit.ChannelAudio"
-        }
-
-        def RealityKitAudioFile "just_relax_11157_mp3"
-        {
-            uniform asset file = @just-relax-11157.mp3@
-        }
     }
 }
 

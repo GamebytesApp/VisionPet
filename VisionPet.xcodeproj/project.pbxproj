@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260FF4E32B7D341C005D4106 /* PetImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */; };
+		260FF4E52B7D34A5005D4106 /* GlobalEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */; };
+		260FF4E72B7D3CA7005D4106 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E62B7D3CA7005D4106 /* ViewModel.swift */; };
 		2669656E2B72A84D0063C450 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2669656D2B72A84D0063C450 /* RealityKitContent */; };
 		266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669656F2B72A84D0063C450 /* VisionPetApp.swift */; };
 		266965722B72A84D0063C450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965712B72A84D0063C450 /* ContentView.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImmersiveView.swift; sourceTree = "<group>"; };
+		260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEntities.swift; sourceTree = "<group>"; };
+		260FF4E62B7D3CA7005D4106 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		266965682B72A84D0063C450 /* VisionPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2669656C2B72A84D0063C450 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
 		2669656F2B72A84D0063C450 /* VisionPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetApp.swift; sourceTree = "<group>"; };
@@ -122,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				2669658F2B72BBB90063C450 /* VisionPetView.swift */,
+				260FF4E62B7D3CA7005D4106 /* ViewModel.swift */,
+				260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 		2669658E2B72B0BD0063C450 /* Gameplay */ = {
 			isa = PBXGroup;
 			children = (
+				260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */,
 			);
 			path = Gameplay;
 			sourceTree = "<group>";
@@ -237,9 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				266965722B72A84D0063C450 /* ContentView.swift in Sources */,
+				260FF4E52B7D34A5005D4106 /* GlobalEntities.swift in Sources */,
 				266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */,
 				266965902B72BBB90063C450 /* VisionPetView.swift in Sources */,
+				260FF4E32B7D341C005D4106 /* PetImmersiveView.swift in Sources */,
 				266965742B72A84D0063C450 /* ImmersiveView.swift in Sources */,
+				260FF4E72B7D3CA7005D4106 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
