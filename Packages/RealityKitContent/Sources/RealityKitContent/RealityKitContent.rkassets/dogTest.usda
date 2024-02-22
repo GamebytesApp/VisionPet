@@ -10,13 +10,13 @@
 
 def Xform "Root"
 {
-    def "Shiba_Inu_Texture_Updated" (
+    def "NewDoggie" (
         active = true
-        prepend references = @Shiba_Inu_Texture_Updated.usdz@
+        prepend references = @NewDoggie.usdz@
     )
     {
-        float3 xformOp:scale = (0.005, 0.005, 0.005)
-        float3 xformOp:translate = (-0.00051895407, 0, 0.016867638)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0.0058487207, 0, 0.018343091)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 }

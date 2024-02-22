@@ -21,28 +21,28 @@ struct ContentView: View {
         VStack(alignment: .center, content: {
             Text("Welcome to Vision Pet!")
                 .font(.extraLargeTitle2)
-//            Button (immersiveSpaceIsShown ? "Back to Menu" : "Play with Pet") {
-//                print("pressed button")
-//                Task {
-//                    if immersiveSpaceIsShown {
-//                        await dismissImmersiveSpace()
-//                    } else {
-//                        await openImmersiveSpace(id: "ImmersiveSpace")
-//                    }
-//                }
-//                immersiveSpaceIsShown.toggle()
-//            }
-            Button ("Play with Pet Test") {
+            Button (immersiveSpaceIsShown ? "Back to Menu" : "Play with Pet") {
+                print("pressed button")
                 Task {
-                    await openImmersiveSpace(id: "ImmersiveSpace")
+                    if immersiveSpaceIsShown {
+                        await dismissImmersiveSpace()
+                    } else {
+                        await openImmersiveSpace(id: "ImmersiveSpace")
+                    }
                 }
+                immersiveSpaceIsShown.toggle()
             }
-            .hoverEffect()
-            .glassBackgroundEffect()
-            .overlay{
-                Capsule()
-                    .fill(Color.blue.opacity(0.2))
-            }
+//            Button ("Play with Pet Test") {
+//                Task {
+//                    await openImmersiveSpace(id: "ImmersiveSpace")
+//                }
+//            }
+//            .hoverEffect()
+//            .glassBackgroundEffect()
+//            .overlay{
+//                Capsule()
+//                    .fill(Color.blue.opacity(0.2))
+//            }
         })
         .padding(50)
         .glassBackgroundEffect()

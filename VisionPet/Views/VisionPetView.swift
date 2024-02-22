@@ -22,13 +22,13 @@ struct VisionPetView: View {
                     .resizable()
                     .frame(width: 300, height: 300)
                 
-                Text("VisionPet")
+                Text("bARkbARk")
                     .font(.extraLargeTitle)
                 
             }
             Spacer()
             VStack (spacing: 20) {
-                Button ("Play with Pet") {
+                Button ("Play ") {
                         if isImmersiveSpaceOpen {
                                 Task { await dismissImmersiveSpace() }
                         } else {
@@ -44,7 +44,7 @@ struct VisionPetView: View {
                 Button {
                     print("idle")
                 } label: {
-                    Text("Zoo Mode")
+                    Text("Idle Mode")
                 }
                 .hoverEffect()
                 .glassBackgroundEffect()
@@ -56,7 +56,7 @@ struct VisionPetView: View {
                 Button {
                     print("haha")
                 } label: {
-                    Text("Buy another Pet for $100")
+                    Text("Manage Pets")
                 }
                 .hoverEffect()
                 .glassBackgroundEffect()

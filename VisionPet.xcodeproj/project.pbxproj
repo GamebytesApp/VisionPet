@@ -10,6 +10,16 @@
 		260FF4E32B7D341C005D4106 /* PetImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */; };
 		260FF4E52B7D34A5005D4106 /* GlobalEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */; };
 		260FF4E72B7D3CA7005D4106 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4E62B7D3CA7005D4106 /* ViewModel.swift */; };
+		260FF4ED2B87BF69005D4106 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4EC2B87BF69005D4106 /* Page.swift */; };
+		260FF4F02B87C199005D4106 /* skinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4EF2B87C199005D4106 /* skinsView.swift */; };
+		260FF4F22B87C1A9005D4106 /* collarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4F12B87C1A9005D4106 /* collarsView.swift */; };
+		260FF4F42B87C1BC005D4106 /* daycareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4F32B87C1BC005D4106 /* daycareView.swift */; };
+		260FF4F62B87C1C7005D4106 /* pawpointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4F52B87C1C7005D4106 /* pawpointsView.swift */; };
+		260FF4F82B87C26C005D4106 /* storeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4F72B87C26C005D4106 /* storeView.swift */; };
+		260FF4FA2B87C8A4005D4106 /* itemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4F92B87C8A4005D4106 /* itemView.swift */; };
+		260FF4FC2B87E6F6005D4106 /* hudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4FB2B87E6F6005D4106 /* hudView.swift */; };
+		260FF4FE2B87FA50005D4106 /* foodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4FD2B87FA50005D4106 /* foodView.swift */; };
+		260FF5002B88030D005D4106 /* petStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4FF2B88030D005D4106 /* petStatusView.swift */; };
 		2669656E2B72A84D0063C450 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2669656D2B72A84D0063C450 /* RealityKitContent */; };
 		266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669656F2B72A84D0063C450 /* VisionPetApp.swift */; };
 		266965722B72A84D0063C450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266965712B72A84D0063C450 /* ContentView.swift */; };
@@ -34,6 +44,16 @@
 		260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImmersiveView.swift; sourceTree = "<group>"; };
 		260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEntities.swift; sourceTree = "<group>"; };
 		260FF4E62B7D3CA7005D4106 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		260FF4EC2B87BF69005D4106 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		260FF4EF2B87C199005D4106 /* skinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skinsView.swift; sourceTree = "<group>"; };
+		260FF4F12B87C1A9005D4106 /* collarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collarsView.swift; sourceTree = "<group>"; };
+		260FF4F32B87C1BC005D4106 /* daycareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daycareView.swift; sourceTree = "<group>"; };
+		260FF4F52B87C1C7005D4106 /* pawpointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawpointsView.swift; sourceTree = "<group>"; };
+		260FF4F72B87C26C005D4106 /* storeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeView.swift; sourceTree = "<group>"; };
+		260FF4F92B87C8A4005D4106 /* itemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemView.swift; sourceTree = "<group>"; };
+		260FF4FB2B87E6F6005D4106 /* hudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hudView.swift; sourceTree = "<group>"; };
+		260FF4FD2B87FA50005D4106 /* foodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodView.swift; sourceTree = "<group>"; };
+		260FF4FF2B88030D005D4106 /* petStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petStatusView.swift; sourceTree = "<group>"; };
 		266965682B72A84D0063C450 /* VisionPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2669656C2B72A84D0063C450 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
 		2669656F2B72A84D0063C450 /* VisionPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPetApp.swift; sourceTree = "<group>"; };
@@ -66,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260FF4EE2B87C181005D4106 /* storePages */ = {
+			isa = PBXGroup;
+			children = (
+				260FF4EF2B87C199005D4106 /* skinsView.swift */,
+				260FF4F12B87C1A9005D4106 /* collarsView.swift */,
+				260FF4F32B87C1BC005D4106 /* daycareView.swift */,
+				260FF4F52B87C1C7005D4106 /* pawpointsView.swift */,
+			);
+			path = storePages;
+			sourceTree = "<group>";
+		};
 		2669655F2B72A84D0063C450 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +119,7 @@
 		2669656A2B72A84D0063C450 /* VisionPet */ = {
 			isa = PBXGroup;
 			children = (
-				2669658E2B72B0BD0063C450 /* Gameplay */,
+				2669658E2B72B0BD0063C450 /* Model */,
 				2669658D2B72B09E0063C450 /* Views */,
 				2669656F2B72A84D0063C450 /* VisionPetApp.swift */,
 				266965712B72A84D0063C450 /* ContentView.swift */,
@@ -127,19 +158,26 @@
 		2669658D2B72B09E0063C450 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				260FF4EE2B87C181005D4106 /* storePages */,
 				2669658F2B72BBB90063C450 /* VisionPetView.swift */,
-				260FF4E62B7D3CA7005D4106 /* ViewModel.swift */,
 				260FF4E22B7D341C005D4106 /* PetImmersiveView.swift */,
+				260FF4F72B87C26C005D4106 /* storeView.swift */,
+				260FF4FB2B87E6F6005D4106 /* hudView.swift */,
+				260FF4FD2B87FA50005D4106 /* foodView.swift */,
+				260FF4F92B87C8A4005D4106 /* itemView.swift */,
+				260FF4FF2B88030D005D4106 /* petStatusView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2669658E2B72B0BD0063C450 /* Gameplay */ = {
+		2669658E2B72B0BD0063C450 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				260FF4E42B7D34A5005D4106 /* GlobalEntities.swift */,
+				260FF4E62B7D3CA7005D4106 /* ViewModel.swift */,
+				260FF4EC2B87BF69005D4106 /* Page.swift */,
 			);
-			path = Gameplay;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,13 +283,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260FF4F02B87C199005D4106 /* skinsView.swift in Sources */,
 				266965722B72A84D0063C450 /* ContentView.swift in Sources */,
 				260FF4E52B7D34A5005D4106 /* GlobalEntities.swift in Sources */,
 				266965702B72A84D0063C450 /* VisionPetApp.swift in Sources */,
+				260FF4F82B87C26C005D4106 /* storeView.swift in Sources */,
+				260FF4FA2B87C8A4005D4106 /* itemView.swift in Sources */,
 				266965902B72BBB90063C450 /* VisionPetView.swift in Sources */,
+				260FF4ED2B87BF69005D4106 /* Page.swift in Sources */,
+				260FF4F62B87C1C7005D4106 /* pawpointsView.swift in Sources */,
 				260FF4E32B7D341C005D4106 /* PetImmersiveView.swift in Sources */,
 				266965742B72A84D0063C450 /* ImmersiveView.swift in Sources */,
+				260FF4F42B87C1BC005D4106 /* daycareView.swift in Sources */,
+				260FF4FE2B87FA50005D4106 /* foodView.swift in Sources */,
 				260FF4E72B7D3CA7005D4106 /* ViewModel.swift in Sources */,
+				260FF4FC2B87E6F6005D4106 /* hudView.swift in Sources */,
+				260FF5002B88030D005D4106 /* petStatusView.swift in Sources */,
+				260FF4F22B87C1A9005D4106 /* collarsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
