@@ -20,8 +20,8 @@ struct skinsView: View {
                     itemView(imageName: "dog-black", itemName: "Black", price: 1000, isOwned: true)
                     itemView(imageName: "dog-peach", itemName: "Peach", price: 1000, isOwned: false)
                     itemView(imageName: "dog-black", itemName: "Black", price: 1000, isOwned: true)
-                    itemView(imageName: "dog-peach", itemName: "Peach", price: 1000, isOwned: false)
-                    itemView(imageName: "dog-peach", itemName: "Peach", price: 1000, isOwned: false)
+                    itemView(imageName: "dog-purple", itemName: "Purple", price: 1000, isOwned: false)
+                    itemView(imageName: "dog-purple", itemName: "Purple", price: 1000, isOwned: false)
                 }
                 .padding(.horizontal, 15)
                 

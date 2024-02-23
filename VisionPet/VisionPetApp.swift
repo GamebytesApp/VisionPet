@@ -9,19 +9,19 @@ import SwiftUI
 
 @main
 struct VisionPetApp: App {
-    @State private var immersionState: ImmersionStyle = .mixed
-    @State private var viewModel = ViewModel() // persist instance of ViewModel throughout app
+//    @State private var immersionState: ImmersionStyle = .mixed
+//    @State private var viewModel = ViewModel() // persist instance of ViewModel throughout app
     
     var body: some Scene { // system by default launches only first scene in body
         WindowGroup {
             ContentView()
-                .environment(viewModel)
-        }.windowStyle(.plain)
+//                .environment(viewModel)
+        }.windowStyle(.volumetric)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
-                .environment(viewModel)
+//                .environment(viewModel)
         }
-        .immersionStyle(selection: $immersionState, in: .mixed)
+//        .immersionStyle(selection: $immersionState, in: .mixed)
     }
 }
